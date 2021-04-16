@@ -1,0 +1,29 @@
+2021-04-17 02:28:21,751 - stepDefinitions.toDoSteps - INFO -End of before method
+2021-04-17 02:28:21,795 - stepDefinitions.toDoSteps - INFO -User Open the browser...
+2021-04-17 02:28:23,460 - stepDefinitions.toDoSteps - INFO -User navigate to url
+2021-04-17 02:28:23,711 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:23,788 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:23,848 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:23,911 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:23,976 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:24,051 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:24,132 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:24,197 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:24,265 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:24,331 - stepDefinitions.toDoSteps - INFO -User add items to the todo list
+2021-04-17 02:28:24,355 - stepDefinitions.toDoSteps - INFO -User verify add items in the todo list
+2021-04-17 02:28:24,481 - stepDefinitions.toDoSteps - INFO -User delete the items in the todo list
+2021-04-17 02:28:24,825 - stepDefinitions.toDoSteps - INFO -User delete the items in the todo list
+2021-04-17 02:28:25,093 - stepDefinitions.toDoSteps - INFO -User delete the items in the todo list
+2021-04-17 02:28:25,226 - stepDefinitions.toDoSteps - INFO -User verify the records after delete the items in the todo list
+2021-04-17 02:28:25,288 - stepDefinitions.toDoSteps - INFO -User set items as the competed items in the todo list
+2021-04-17 02:28:25,489 - stepDefinitions.toDoSteps - INFO -User set items as the competed items in the todo list
+2021-04-17 02:28:25,677 - stepDefinitions.toDoSteps - INFO -User set items as the competed items in the todo list
+2021-04-17 02:28:25,859 - stepDefinitions.toDoSteps - INFO -User set items as the competed items in the todo list
+2021-04-17 02:28:26,237 - stepDefinitions.toDoSteps - INFO -User edit the items in the todo list
+2021-04-17 02:28:27,524 - stepDefinitions.toDoSteps - INFO -End of before method
+2021-04-17 02:28:27,526 - stepDefinitions.toDoSteps - INFO -User Open the browser...
+2021-04-17 02:28:28,197 - stepDefinitions.toDoSteps - INFO -User navigate to url
+2021-04-17 02:28:29,120 - stepDefinitions.toDoSteps - INFO -User verify the items in the Completed todo list
+2021-04-17 02:28:29,201 - stepDefinitions.toDoSteps - INFO -User verify the items in the Active todo list
+2021-04-17 02:28:29,270 - stepDefinitions.toDoSteps - INFO -User verify the items in the All todo list

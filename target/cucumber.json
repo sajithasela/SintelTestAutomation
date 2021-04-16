@@ -1,0 +1,429 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26783000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open the browser",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1664283000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to todo web page",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_navigate_to_todo_web_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-16T18:28:19.520Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2180876000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.toDoSteps.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "As a MVC user,I should be able to perform user actions in items list",
+        "description": "",
+        "id": "manage-the-todo-list;as-a-mvc-user-i-should-be-able-to-perform-user-actions-in-items-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 869348000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User add items to todo list",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_add_items_to_todo_list(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Add items"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 1"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 2"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 3"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 4"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 5"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 6"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 7"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 8"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 9"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 10"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23164000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User can see 10 items has get added to the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.toDoSteps.user_can_see_items_has_get_added_to_the_list(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 858922000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User delete items in todo list",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_delete_items_in_todo_list(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Deleted value"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 1"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 2"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10072000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should be able to see to do items count reduced to 7 in todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.toDoSteps.user_should_be_able_to_see_to_do_items_count_reduced_to_in_todo_list(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678955000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User marks item in todo list as completed",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_marks_item_in_todo_list_as_completed(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "completed Value"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 4"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 5"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 6"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 7"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381571000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User edit the items in todo list",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_edit_the_items_in_todo_list(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Add Value",
+                  "Edit Value"
+                ]
+              },
+              {
+                "cells": [
+                  "Item 8",
+                  "Item 11"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 847000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open the browser",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 670410000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to todo web page",
+            "match": {
+              "location": "stepDefinitions.toDoSteps.user_navigate_to_todo_web_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-16T18:28:26.301Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1223550000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.toDoSteps.setup()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "As a MVC user,I should be able to navigate from different todo item status tabs",
+        "description": "",
+        "id": "manage-the-todo-list;as-a-mvc-user-i-should-be-able-to-navigate-from-different-todo-item-status-tabs;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 526581000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User add \"Item 1, Item 2, Item 3 ,Item 4, Item 5\" items to the todo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item 1, Item 2, Item 3 ,Item 4, Item 5\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.toDoSteps.user_add_items_to_the_todo_list(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332956000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User mark as \"Item 3, Item 4\" items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item 3, Item 4\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.toDoSteps.user_mark_as_items(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61804000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User able to see \"Item 3, Item 4\"  todo items in \"Completed\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item 3, Item 4\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Completed\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.toDoSteps.user_able_to_see_todo_items_in_tab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80302000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User able to see \"Item 1, Item 2,Item 5\"  todo items in \"Active\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item 1, Item 2,Item 5\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Active\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.toDoSteps.user_able_to_see_todo_items_in_tab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67162000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User able to see \"Item 1, Item 2, Item 3 ,Item 4, Item 5\"  todo items in \"All\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Item 1, Item 2, Item 3 ,Item 4, Item 5\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"All\"",
+                  "offset": 73
+                }
+              ],
+              "location": "stepDefinitions.toDoSteps.user_able_to_see_todo_items_in_tab(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Manage the todo list",
+    "description": "",
+    "id": "manage-the-todo-list",
+    "keyword": "Feature",
+    "uri": "file:features/TC001_ManageUserList.feature",
+    "tags": []
+  }
+]
